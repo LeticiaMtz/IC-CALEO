@@ -1,4 +1,4 @@
-const { getTags, getTag, postTag, putTag, deleteTag } = require('../routes/vehiculo');
+const { getTags, getTag, postTag, putTag, deleteTag } = require('../server/routes/vehiculo');
 const assert = require('assert');
 
 describe('tags', function () {
